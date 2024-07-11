@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* General reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif
+}
+
+body {
+    background-color: rgb(20, 114, 83);
+}
+
+.app{
+    background : aliceblue;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-size: 30px;
+    color: rgb(22, 119, 86);
+    font-weight: 600;
+    border-bottom: 1px solid #132;
+    padding-bottom: 30px;
+    
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18pxx;
+    color: rgb(20, 114, 83);
+}
+
+.btn{
+    background: white;
+    color: #132;
+    font-weight: 500;
+    width: 100%;
+    border:1px solid #132 ;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius:4px;
+    cursor: pointer;
+    transition:all 0.2s ease-in-out;
+}
+
+.btn:hover:not([disabled]){
+    background-color: rgb(54, 170, 132);
+    color: aliceblue;
+}
+
+.btn:disabled{
+    cursor: no-drop;     
+    /* Change the cursor pointer after clicking one option */
+}
+ 
+
+#next-btn{
+    background: rgb(22, 119, 86);
+    width: 150px;
+    color:aliceblue;
+    font-weight: 500;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    display: none;
+}
+
+.correct{
+    background: rgb(38, 150, 113);
+}
+.incorrect{
+    background: rgb(248, 138, 138);
+}
